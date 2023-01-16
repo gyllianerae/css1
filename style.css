@@ -1,0 +1,245 @@
+* {
+    /* outline: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(77, 118, 134);
+    width: 1500px;
+    min-height: 1150px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+}
+
+header {
+    width: 1500px;
+    min-height: 100px;
+    display: inline-block;
+    margin: 0px;
+}
+
+    header img {
+        width: 400px;
+        margin: 50px 400px 10px 50px;
+        vertical-align: middle;
+    }
+
+    header #search {
+        background-color: rgb(25, 25, 66);
+        width: 450px;
+        min-height: 80px;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 9px;
+        margin: 50px 0px 10px 5px;
+    }
+    
+    header label input {
+        height: 35px;
+        width: 250px;
+        vertical-align: middle;
+        margin: 15px 5px 15px 15px;
+        border-radius: 3px;
+    }    
+
+#donate {
+    background-color: rgb(218, 218, 145);
+    background: linear-gradient(rgb(252, 252, 110), rgb(222, 233, 163));
+    width: 50px;
+    min-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 50px 5px 10px 50px;
+}
+
+#go {
+    background-color: rgb(69, 133, 197);
+    background: linear-gradient(rgb(113, 166, 219), rgb(75, 123, 172));
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+#socialize {
+    width: 100px;
+    display: inline-block;
+    min-height: 87px;
+    background-color: rgb(25, 25, 66);
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    border-left: 3px solid black;
+    border-radius: 9px;
+}
+
+    #socialize p {
+        margin: 29px 0px;
+    }
+
+nav {
+    background-color: rgb(69, 133, 197);
+    background: linear-gradient(rgb(103, 143, 184), rgb(75, 123, 172));
+    width: 1400px;
+    height: 60px;
+    margin: 0px 45px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+   #about {
+        background-color: rgb(40, 56, 99);
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0px;
+    }
+
+        nav ul li a {
+            display: inline-block;
+            margin: 0px;
+            color: white;
+            border-right: 1px solid gray;
+            padding: 15px 30px;
+            text-decoration: none;
+        }
+
+.main {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 140px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .main h1 {
+        color: yellow;
+        display: inline;
+    }
+
+    .main p {
+        color: white;
+        font-size: 20px;
+    }
+
+img {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+section {
+    background-color: white;
+    width: 1385px;
+    min-height: 100px;
+    margin: 50px 0px 0px 0px;
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+    padding: 30px 61px;
+}
+
+    section .menu {
+        display: inline-block;
+        margin: 0px 5px;
+        border-top: 5px solid rgb(71, 104, 122);
+    }
+
+        section .menu .header {
+            border-bottom: 3px dotted black;
+            padding: 0px 0px;
+            display: inline-block;
+        }
+
+            section .menu .header h2 {
+                display: inline-block;
+                margin-right: 380px;
+                font-size: 30px;
+            }
+
+        section .menu .latest_news {
+            padding: 0px;
+            vertical-align: top;
+        }
+
+        section .menu li {
+            font-size: 18px;
+            margin: 0px 0px;
+            list-style: none;
+            padding: 10px 0px;
+            border-bottom: 1px solid gray;
+        }
+
+            section .menu .latest_news li a {
+                color: blue;
+            }
+
+        section .menu .uses_python {
+            padding: 0px;
+            vertical-align: top;
+        }
+
+            section .menu .uses_python li {
+                font-weight: 300px;
+            }
+
+                section .menu .uses_python li a {
+                    background-color: rgb(212, 212, 212);
+                    font-size: 18px;
+                    color: black;
+                    text-decoration: none;
+                    border-bottom: 1px solid black;
+                }
+
+.more {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    width: 1500px;
+    min-height: fit-content;
+    display: block;
+    position: absolute;
+    bottom: 70px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+    footer ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0px 5px;
+    }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+#copyright
+{
+    font-size: 16px;
+    color: rgb(228, 228, 228);
+}
+
